@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        .bt button {
+            border: none;
+            background-color: #F89E52;
+            width: 200px;
+            height: 50px;
+  
+
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        .bt {
+            position: relative;
+            display: inline-block;
+            margin-top: 50px;
+            margin-left: 100px;
+        }
+
+        .dp {
+            padding-left: 80px;
+            width: 120px;
+            background-color: #3d3d3d59;
+            display: none;
+            position: absolute;
+    
+        }
+
+        .bt:hover .dp {
+            display: block;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="bt">
+        <a href="#"><button>Kamehameha</button></a>
+        <div class="dp">
+           <a href="#"><h1>01</h1></a> 
+           <a href="#"> <h1>02</h1></a>
+           <a href="#"><h1>03</h1></a> 
+        </div>
+    </div>    
+</body>
+</html>
